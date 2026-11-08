@@ -7,7 +7,7 @@ SERVER=$(hostname)
 DATE=$(date)
 
 echo "================================="
-echo "       SERVER MONITOR REPORT     "
+echo "       SERVER MONITOR REPORT"
 echo "================================="
 
 echo "Hostname: $SERVER"
@@ -29,5 +29,5 @@ do
 done
 
 echo "================================="
-echo "       END OF REPORT             "
+echo "       END OF REPORT"
 echo "================================="
