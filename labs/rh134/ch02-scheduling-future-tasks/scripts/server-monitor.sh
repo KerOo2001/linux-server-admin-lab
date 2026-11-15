@@ -1,6 +1,5 @@
 #!/bin/bash
 
-exec > monitor-report.txt
 
 
 SERVER=$(hostname)
