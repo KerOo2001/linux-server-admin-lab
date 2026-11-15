@@ -1,77 +1,60 @@
 # Linux Server Administration Lab
 
-Hands-on RHEL 9 system administration lab documenting my practical Linux learning journey.
+Hands-on Linux system administration labs documenting my practical learning journey with Red Hat Enterprise Linux and preparation for the RHCSA certification.
 
-## Environment
+## Lab Environment
 
-- Red Hat Enterprise Linux 9
-- VMware
-- Bash
-- Git
-- Windows / MobaXterm for remote SSH administration
+- Red Hat Enterprise Linux 9.8
+- VMware Workstation
+- Bash Scripting
+- Git and GitHub
+- OpenSSH and MobaXterm
+- Windows 11
 
 ## Current Progress
 
-**Course:** CH01–CH10 completed
-**Practical Labs:** CH01–CH10 practiced
-**Next:** CH11
+| Course | Status |
+|---|---|
+| RH124 - Red Hat System Administration I | Completed |
+| RH134 - Red Hat System Administration II | In Progress |
+| RH134 CH01 - Bash Scripting | Practiced |
+| RH134 CH02 - Scheduling Future Tasks | In Progress |
+| RHCSA Certification | Preparing |
 
-## Practical Work
+## RH124 - System Administration I
 
-Topics practiced so far include:
-
-- Linux CLI and filesystem navigation
-- File and directory management
-- Permissions and shared directories
-- SGID and group inheritance
-- Hard links, symbolic links, and inodes
-- grep, regex, cut, tr, and pipes
-- I/O redirection
-- Vim
-- Shell variables and environment configuration
-- Users and groups
-- sudo and privilege management
-- Password aging and account access
-- File permissions and special permissions
-- Process monitoring and management
-- Services and daemons with systemd
-- Remote administration with OpenSSH
-- SSH key-based authentication
-- SSH server configuration and hardening
-- SSH troubleshooting and configuration validation
-- Linux troubleshooting
-
-## Lab Documentation
-
-- [CH01–CH06 Foundations Practical Lab](labs/ch01-ch06-foundations-lab.md)
-- [CH07–CH08 Access and Process Management Lab](labs/ch07-ch08-access-processes-lab.md)
-- [CH09 Services and Daemons Lab](labs/ch09-services-daemons-lab.md)
-- [CH10 Configuring and Securing SSH Lab](labs/ch10-ssh-lab.md)
+- [CH01–CH06: Linux Foundations](labs/rh124/ch01-ch06-foundations-lab.md)
+- [CH07–CH08: Access and Process Management](labs/rh124/ch07-ch08-access-processes-lab.md)
+- [CH09: Services and Daemons](labs/rh124/ch09-services-daemons-lab.md)
+- [CH10: Configuring and Securing SSH](labs/rh124/ch10-ssh-lab.md)
+- [CH11: System Logging](labs/rh124/ch11-logging-lab.md)
+- [CH12: Networking](labs/rh124/ch12-networking-lab.md)
+- [CH13: Archiving and Transferring Files](labs/rh124/ch13-archiving-transferring-files-lab.md)
+- [CH14: Software Package Management](labs/rh124/ch14-software-packages-lab.md)
 - [Local Users and Groups](users-groups.md)
 
-## CH10 Highlights
+## RH134 - System Administration II
 
-CH10 was practiced using MobaXterm as an SSH client and a RHEL 9 virtual machine as the SSH server.
+- [CH01: Bash Scripting](labs/rh134/ch01-bash-scripting/)
+- [CH02: Scheduling Future Tasks](labs/rh134/ch02-scheduling-future-tasks/)
 
-The lab included:
+## Technical Skills
 
-- Remote SSH access
-- ED25519 SSH key generation
-- Public-key deployment with `ssh-copy-id`
-- `authorized_keys` and `known_hosts`
-- `PermitRootLogin`
-- `PasswordAuthentication`
-- Configuration validation with `sshd -t`
-- Effective configuration inspection with `sshd -T`
-- SSH service reload with `systemctl`
-- Authentication testing from a real remote client
-- Troubleshooting an Anaconda-generated configuration override under `/etc/ssh/sshd_config.d/`
-- Restoring the original lab environment after testing
+- Linux filesystem and permission management
+- User and group administration
+- Process and service management
+- SSH administration and troubleshooting
+- Network configuration
+- Software package management
+- System logging
+- Bash scripting
+- Task scheduling and automation
+- Git version control
 
 ## Learning Workflow
 
-Learn → Build → Verify → Troubleshoot → Document → Commit
+Requirements → Analysis → Implementation → Validation → Troubleshooting → Documentation
 
-## Next Step
+## Project Objective
 
-Continue with RHEL 9 Chapter 11 and extend the lab with the next system administration topic.**Course:** CH01–CH10 completed
+Develop practical Linux system administration skills through hands-on labs, troubleshooting scenarios, automation scripts, and technical documentation.
