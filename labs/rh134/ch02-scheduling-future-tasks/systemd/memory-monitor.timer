@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Memory Monitoring Every 2 Minutes
+
+[Timer]
+OnCalendar=*-*-* *:0/2:00
+AccuracySec=1s
+Persistent=true
+
+[Install]
+WantedBy=timers.target

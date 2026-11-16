@@ -1,0 +1,6 @@
+[Unit]
+Description=Server Memory Monitoring
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c '{ date; free -h; } >> /var/log/memory-monitor.log 2>&1'

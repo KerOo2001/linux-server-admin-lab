@@ -1,0 +1,5 @@
+SHELL=/bin/bash
+PATH=/usr/bin:/usr/sbin
+RANDOM_DELAY=0
+
+1 0 hosts-backup cp /etc/hosts "/home/kero-user/linux-lab/linux-server-admin-lab/labs/rh134/ch02-scheduling-future-tasks/anacron/backups/hosts-$(date +%F).bak"
